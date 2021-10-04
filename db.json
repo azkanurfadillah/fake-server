@@ -1,0 +1,333 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "time": 1632362957131,
+      "blocks": [
+        {
+          "id": "3CvUF4qYLN",
+          "type": "header",
+          "data": {
+            "text": "this is title yesh",
+            "level": 1
+          },
+          "tunes": {
+            "alignment": {
+              "alignment": "left"
+            }
+          }
+        },
+        {
+          "id": "IOqTTstbQu",
+          "type": "image",
+          "data": {
+            "url": "https://www.tesla.com/tesla_theme/assets/img/_vehicle_redesign/roadster_and_semi/roadster/hero.jpg",
+            "caption": "",
+            "withBorder": false,
+            "withBackground": false,
+            "stretched": false
+          }
+        },
+        {
+          "id": "d-l5K-rCQv",
+          "type": "paragraph",
+          "data": {
+            "text": "and i have some details here."
+          },
+          "tunes": {
+            "alignment": {
+              "alignment": "left"
+            }
+          }
+        },
+        {
+          "id": "dqw_7Ku7al",
+          "type": "image",
+          "data": {
+            "url": "https://pbs.twimg.com/media/E9eRB95XoA0bL9E?format=jpg&amp;name=large",
+            "caption": "asddddd",
+            "withBorder": false,
+            "withBackground": false,
+            "stretched": false
+          }
+        }
+      ],
+      "version": "2.22.2"
+    },
+    {
+      "time": 1632392885122,
+      "blocks": [
+        {
+          "id": "xGdvNZEfqH",
+          "type": "header",
+          "data": {
+            "text": "Hiring: Chrome Privacy Sandbox Developer Advocate",
+            "level": 1
+          },
+          "tunes": {
+            "alignment": {
+              "alignment": "left"
+            }
+          }
+        },
+        {
+          "id": "FhCM3TOgSQ",
+          "type": "paragraph",
+          "data": {
+            "text": "It's looking like 2020 will be a big year for Privacy across the web and&nbsp;<a href=\"https://blog.google/products/chrome/building-a-more-private-web/\">our team (Chrome) is no exception.</a>"
+          },
+          "tunes": {
+            "alignment": {
+              "alignment": "left"
+            }
+          }
+        },
+        {
+          "id": "gyr_U_54JJ",
+          "type": "paragraph",
+          "data": {
+            "text": "<a href=\"https://www.chromium.org/Home/chromium-privacy/privacy-sandbox\">Chrome has a rather large number of projects</a>&nbsp;that are coming in the following years that will continue to improve the privacy of all users on the web and we need the help of an awesome&nbsp;Developer Advocate&nbsp;to ensure that the entire cross-browser privacy story is heard, understood and implemented across the web."
+          },
+          "tunes": {
+            "alignment": {
+              "alignment": "left"
+            }
+          }
+        },
+        {
+          "id": "KxP5N3P_po",
+          "type": "paragraph",
+          "data": {
+            "text": "The Developer Advocate role <b>will help to </b>accelerate the adoption of security and privacy related primitives from all browsers (think about all the great work browsers like Firefox, Safari, Brave etc are doing) across the web ecosystem and to make sure that our engineering and product teams are prioritising the needs of users and developers. It's not going to be easy, because a lot of these changes impact the way developers build sites today; for example, the&nbsp;Same-Site&nbsp;change that is landing in Chrome imminently requires developers of widgets and anything that is hosted on a 3rd party origin meant to be used in a 1st party context, to declare that the correct&nbsp;SameSite&nbsp;attribute, lest they be automatically set to&nbsp;SameSite=Lax, which will restrict their usage slightly."
+          },
+          "tunes": {
+            "alignment": {
+              "alignment": "left"
+            }
+          }
+        }
+      ],
+      "version": "2.22.2",
+      "id": 3
+    },
+    {
+      "tags": [
+        "opini"
+      ],
+      "author": "admin",
+      "status": "draft",
+      "views": 0,
+      "id": 4,
+      "time": 1632461833006,
+      "blocks": [
+        {
+          "id": "rIMVVugPtZ",
+          "type": "header",
+          "data": {
+            "text": "Editor.js",
+            "level": 1
+          },
+          "tunes": {
+            "alignment": {
+              "alignment": "left"
+            }
+          }
+        },
+        {
+          "id": "lwbKLC9hRo",
+          "type": "paragraph",
+          "data": {
+            "text": "Hey. Meet the new Editor. On this page you can see it in action — try to edit this text."
+          },
+          "tunes": {
+            "alignment": {
+              "alignment": "left"
+            }
+          }
+        },
+        {
+          "id": "AA734rnGX_",
+          "type": "header",
+          "data": {
+            "text": "<b><font>Key features</font></b>",
+            "level": 3
+          },
+          "tunes": {
+            "alignment": {
+              "alignment": "left"
+            }
+          }
+        },
+        {
+          "id": "0Mgr3zAsDh",
+          "type": "list",
+          "data": {
+            "style": "unordered",
+            "items": [
+              "It is a<font> block-styled editor</font>",
+              "It returns clean data<font> output in JSON</font>",
+              "Designed to be extendable and pluggable with a simple API"
+            ]
+          }
+        },
+        {
+          "id": "DHqxP4rXVr",
+          "type": "header",
+          "data": {
+            "text": "<b>What does it mean «block-styled editor»</b>",
+            "level": 3
+          },
+          "tunes": {
+            "alignment": {
+              "alignment": "left"
+            }
+          }
+        },
+        {
+          "id": "J00rj8Hgoe",
+          "type": "paragraph",
+          "data": {
+            "text": "Workspace in classic editors is made of a single contenteditable element, used to create different HTML markups. Editor.js workspace consists of separate Blocks: paragraphs, headings, images, lists, quotes, etc. <span style=\"background-color: rgb(51, 54, 60);\">Each of them is an independent c</span>ontenteditable element (or more complex structure) provided by Plugin and united by Editor's Core."
+          },
+          "tunes": {
+            "alignment": {
+              "alignment": "center"
+            }
+          }
+        },
+        {
+          "id": "evtQFq2G48",
+          "type": "paragraph",
+          "data": {
+            "text": "There are dozens of <a href=\"https://github.com/editor-js\">ready-to-use Blocks</a> and the <a href=\"https://editorjs.io/creating-a-block-tool\">simple API</a> for creation any Block you need. For example, you can implement Blocks for Tweets, Instagram posts, surveys and polls, CTA-buttons and even games."
+          },
+          "tunes": {
+            "alignment": {
+              "alignment": "left"
+            }
+          }
+        },
+        {
+          "id": "RpraeRvkSN",
+          "type": "quote",
+          "data": {
+            "text": "i have some quotes here",
+            "caption": "",
+            "alignment": "left"
+          }
+        },
+        {
+          "id": "As0TH5u4c0",
+          "type": "delimiter",
+          "data": {}
+        },
+        {
+          "id": "fKODHi_CT9",
+          "type": "checklist",
+          "data": {
+            "items": [
+              {
+                "text": "checklist 1",
+                "checked": true
+              },
+              {
+                "text": "checklist 2",
+                "checked": false
+              }
+            ]
+          }
+        }
+      ],
+      "version": "2.22.2"
+    },
+    {
+      "time": 1633066001541,
+      "blocks": [
+        {
+          "id": "NFdCylzyMC",
+          "type": "header",
+          "data": {
+            "text": "Tesla Powerpack Batteries Installed At World’s Largest Single-Site Solar Park",
+            "level": 1
+          },
+          "tunes": {
+            "alignment": {
+              "alignment": "left"
+            }
+          }
+        },
+        {
+          "id": "nyRXGO6cTD",
+          "type": "image",
+          "data": {
+            "url": "https://cleantechnica.com/files/2021/09/Tesla-Powerpack-worlds-largest-solar-power-plant.jpeg",
+            "caption": "",
+            "withBorder": false,
+            "withBackground": false,
+            "stretched": false
+          }
+        },
+        {
+          "id": "9zOlIAdoTE",
+          "type": "paragraph",
+          "data": {
+            "text": "The Dubai Electricity and Water Authority (DEWA)&nbsp;announced&nbsp;the inauguration of a pilot project for energy storage at the Mohammed bin Rashid Al Maktoum Solar Park this week. The project has a power capacity of 1.21 MW and an energy capacity of 8.61 MWh. DEWA is using Tesla’s Powerpack batteries. HE Saeed Mohammed Al Tayer, MD &amp; CEO of DEWA, gave the following statement:"
+          },
+          "tunes": {
+            "alignment": {
+              "alignment": "left"
+            }
+          }
+        },
+        {
+          "id": "-cxYAH7Zht",
+          "type": "quote",
+          "data": {
+            "text": "Our strategy and work plans are guided by the vision and directives of His Highness Sheikh Mohammed bin Rashid Al Maktoum, Vice President and Prime Minister of the UAE and Ruler of Dubai, to ensure energy security and sustainability. We have an integrated vision to achieve these directives with three main pillars: The first is to produce more clean energy, especially solar energy, under the Dubai Clean Energy Strategy 2050. The second is to decouple the desalination process from the production of electricity and desalinate water using a combination of clean energy sources and waste heat. The third is disrupting the role of utilities using Fourth Industrial Revolution technologies, such as AI, UAVs, energy storage, blockchain, the Internet of Things (IoT), and many more.",
+            "caption": "",
+            "alignment": "left"
+          }
+        },
+        {
+          "id": "P2NjjvFsax",
+          "type": "quote",
+          "data": {
+            "text": "The energy storage project using Tesla’s lithium-ion battery solution at the Mohammed bin Rashid Al Maktoum Solar Park, the largest single-site solar park in the world, aims to diversify the energy mix and enhance energy storage technologies. This supports our efforts to achieve the Dubai Clean Energy Strategy 2050, which aims to provide 75% of Dubai’s total power capacity from clean energy sources by 2050 and make Dubai a global hub for clean energy and a green economy.&nbsp; The pilot project will evaluate the technical and economic capabilities of this technology within the operational framework of electricity systems in solar photovoltaic power plants. It also tests the role of this technology in the integration between clean energy and energy storage to achieve maximum efficiency and reliability.",
+            "caption": "",
+            "alignment": "left"
+          }
+        },
+        {
+          "id": "OXY9Sh0ROL",
+          "type": "paragraph",
+          "data": {
+            "text": "Al Tayer added that DEWA is implementing other energy projects, including concentrated solar power (CSP), in the 4th phase of the Mohammed bin Rashid Al Maktoum Solar Park. This combines CSP and photovoltaic solar panels with a total production capacity of 950 MW, DEWA noted. Once completed, the project will have the largest global thermal storage capacity in the world — 15 hours worth of storage."
+          },
+          "tunes": {
+            "alignment": {
+              "alignment": "left"
+            }
+          }
+        },
+        {
+          "id": "KggjnQV2ay",
+          "type": "paragraph",
+          "data": {
+            "text": "DEWA added that there are plans to implement a 250 MW pumped-storage hydroelectric power station in Hatta and that this will be the first of its kind in the Arabian Gulf region. The power station will generate electricity by using water stored at the Hatta Dam and will have a storage capacity of 1,500 MWh. DEWA also launched a green hydrogen project alongside Expo 2020 Dubai and Siemens Energy to produce green hydrogen using solar power."
+          },
+          "tunes": {
+            "alignment": {
+              "alignment": "left"
+            }
+          }
+        }
+      ],
+      "version": "2.22.2",
+      "tags": [],
+      "author": "admin",
+      "status": "draft",
+      "views": 0,
+      "id": 5
+    }
+  ]
+}
